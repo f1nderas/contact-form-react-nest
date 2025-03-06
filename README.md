@@ -7,27 +7,35 @@
 ## Установка и запуск
 ### 1️⃣ Клонирование репозитория
 
+```sh
 git clone https://github.com/contact-form-react-nest.git
 cd contact-form-react-nest
+```
 
 
 ### 2️⃣ Запуск базы данных через Docker Compose
 
+```sh
 docker-compose up --build
+```
 
 ### 3️⃣ Настройка и запуск Backend вручную
 
+```sh
 cd backend
 cp .env.example .env # Заполнить переменные окружения
 npm install
 npm run start
+```
 
 
 ### 4️⃣ Настройка и запуск Frontend
 
+```sh
 cd ../frontend
 npm install
 npm run dev
+```
 
 
 ## API Эндпоинты (Backend)
